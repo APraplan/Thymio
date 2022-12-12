@@ -1,5 +1,11 @@
 # Thymio
+
+![Thymio](https://user-images.githubusercontent.com/102581647/207152910-855bcffa-56b7-4ed0-a144-e3f5692c3873.png)
+
 ## Global navigation with the use of a camera to guide a Thymio robot around obstacles
+
+
+![map_without_thymio](https://user-images.githubusercontent.com/102581647/207152936-178f4ec9-e7af-4466-8bed-361c82519a42.png)
 
 This project was developed as part of the Micro-450 course at EPFL. The aim of this project was to guide a small robot in a map with some obstacles, the main obstacles are detected with the camera and the small obsacles are avoided by the robot itself directly, a djikstra algorithm is used to find the ideal path, the position of the robot can be estimated for a short periode of time in order to go under a bridge or recover out of the camera's field of view.
 
@@ -20,3 +26,6 @@ An extended Kalman filter was developped for the purpose of processing all measu
 https://user-images.githubusercontent.com/102581647/207149962-0e1a1da0-2240-4995-995a-955adc73e7f9.mp4
 
 Axel Praplan, Oliver Ghisen, Romain Bianci, Albias Havoli
+
+
+
